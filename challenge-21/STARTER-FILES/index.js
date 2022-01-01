@@ -16,7 +16,6 @@ inptBudget.addEventListener("blur", e => {
     summIncome.innerText = inptBudget.value
 })
 
-
 btnAddExpense.addEventListener("click", e => {
     console.log("Add Expense")
     let expName = inptExpenseName.value
